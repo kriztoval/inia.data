@@ -1,0 +1,16 @@
+Package: inia.data
+Type: Package
+Title: Conexion al servicio web del programa de mejoramiento genetico INIA
+Version: 0.1.0
+Author: Cristobal Campos, Salvador Gezan, Ruben Ruiz
+Maintainer: Cristobal Campos <cristobal.campos@inia.cl>
+Description: Obtencion de los datos mediante conexion a una API REST para el analisis estadistico de los programas de mejoramiento genetico del Instituto de Investigaciones Agropecuarias de Chile.
+Encoding: UTF-8
+License: file LICENSE
+Imports:  methods, stats, stringr, dplyr,
+          DBI, RMySQL,  httr, jsonlite,
+          sp, sf, leaflet
+LazyData: true
+RoxygenNote: 6.1.1
+Suggests: 
+    testthat (>= 2.1.0)
